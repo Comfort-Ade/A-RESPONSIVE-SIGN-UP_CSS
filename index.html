@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <style>
+      .sign {
+        border: 2rem solid blueviolet;
+        border-radius: 2rem;
+        margin: auto;
+        width: 50%;
+        padding: 1rem;
+        text-align: center;
+      }
+      input[type="text"] {
+        margin: 0rem 2rem;
+        border-radius: 3cm;
+        background-color: rgb(201, 194, 194);
+        border: none;
+        color: aliceblue;
+        padding: 1rem;
+        width: 50%;
+      }
+      button {
+        margin: 0.5rem;
+        border-radius: 3rem;
+        background-color: rgb(136, 59, 207);
+        color: aliceblue;
+        width: 50%;
+        padding: 1rem;
+        border: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      h1 {
+        text-shadow: 2px 2px 4px rgb(145, 92, 194);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sign">
+      <form action="#">
+        <h1>Sign Up</h1>
+        <br />
+        <div class="use">
+          <input type="text" placeholder="Username" required /><br /><br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+          /><br /><br />
+          <input
+            type="text"
+            name="pass"
+            id="pass"
+            placeholder="password"
+            required
+          />
+          <br /><br />
+          <input
+            type="text"
+            name="re"
+            id="re"
+            placeholder="Re-Enter password"
+            required
+          />
+        </div>
+        <br />
+        <div class="check">
+          <input type="checkbox" name="agree" id="agree" /><label for="agree">
+            I agree to these <a href="#">Terms & conditions</a>
+          </label>
+        </div>
+        <br />
+        <button>Sign Up</button> <br />
+        <div>
+          Already a member?
+          <a href=".//login.html">Login Here</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
